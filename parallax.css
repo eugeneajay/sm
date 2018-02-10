@@ -1,0 +1,21 @@
+.parallax{
+          background: url('./images/pg1.jpg') no-repeat center;
+          background-size: cover;
+          background-attachment: fixed;
+          height: auto;
+
+     }
+     	.progress {
+    height: 20px;
+    margin-bottom: 2.2em;
+    background-color: rgba(255, 218, 227, 0.07);
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-o-border-radius: 0;
+	-ms-border-radius: 0;
+    border-radius: 0;
+}
+
+.progress-bar { 
+    background-color: green;
+}

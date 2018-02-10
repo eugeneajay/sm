@@ -1,0 +1,176 @@
+
+/* About */
+.about{
+	padding:4em 0;
+}
+h3.heading {
+    text-align: center;
+    font-size: 40px;
+    color: #7d3f98;
+    border-bottom: 1px dotted #7d3f98;
+    width: 19%;
+    margin: 0 auto 1em;
+    text-transform: uppercase;
+}
+.skills h3.heading {
+    width: 10%;
+}
+.contact h3.heading {
+    width: 20%;
+}
+.count-agileits h3.heading {
+    color: #ffffff;
+    border-bottom: 1px dotted #ffffff;
+    width: 29%;
+}
+.gallery h3.heading {
+    width: 13%;
+}
+/*-- clients--*/
+.clients{
+    padding: 1em 2em;
+}
+.clients h3{
+	color:#fff;
+}
+.clients label.line{
+	background:#fff;
+}
+.clients h3 {
+	font-size: 30px;
+	text-transform:uppercase;
+	letter-spacing:0px;
+	color: #146eb4;
+    margin-bottom: .5em;
+}
+.clients span {
+    width: 8%;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    text-align: center;
+    left: 8%;
+}
+.flex-active-slide p {
+    line-height: 30px;
+    color: #212121;
+    letter-spacing: 1px;
+    font-size: 14px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: 1px dotted #646464;
+    border-bottom: 1px dotted #646464;
+}
+.flex-active-slide h4 {
+    text-transform: capitalize;
+    color: #252323;
+    margin-bottom: 1em;
+}
+.client h5 {
+	font-size: 20px;
+	color:#ffffff;
+    float: left;
+    margin-top: 1.5em;
+    margin-left: 1em;
+}
+.client {
+    margin-top: 2em;
+}
+ul.address li {
+    display: block;
+}
+ul.address li ul.agileits-address-text li {
+    display: inline-block;
+    font-size: 1em; 
+	color: #2f2f2f;
+    margin-top: 1em;
+}
+ul.address li ul.agileits-address-text li  a{
+    color: #2f2f2f;
+}
+ul.address li ul.agileits-address-text li  a:hover{
+    color: #ff9900;
+}
+ul.address li ul.agileits-address-text li:nth-child(1) {
+    width: 25%;
+}
+ul.hireme li {
+    display: inline-block;
+    font-size: 1em;
+}
+ul.hireme li a {
+    padding: 8px 20px;
+    text-decoration: none;
+    color: #212121;
+}
+.w3l_contact, .w3ls_more:hover {
+    border: 1px solid #ff9900;
+    color: #ffffff !important;
+    background: #ff9900;
+}
+.w3ls_more, .w3l_contact:hover {
+    border: 1px solid #146eb4;
+    background: #146eb4;
+    color: #ffffff !important;
+}
+ul.hireme {
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+/*-- //clients--*/
+/* //About */
+
+
+
+@media screen and (max-width: 1080px){
+	.clients h3 {
+		font-size: 26px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	
+	.address h3 {
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-width: 568px){
+	
+	.clients {
+		padding: 1em 1em;
+	}
+    	
+	.about {
+		padding: 2em 0 1em;
+	}
+}
+
+	
+@media screen and (max-width: 414px){
+	.agileinfomenu {
+		width: 23%;
+	}
+	ul.address li ul.agileits-address-text li:nth-child(1) {
+		width: 37%;
+	}
+	
+	.clients {
+		padding: 1em 0em;
+	}
+	.flex-active-slide h4 {
+		line-height: 26px;
+	}
+	
+	.address h3 {
+		font-size: 22px;
+	}
+	
+}
+@media screen and (max-width: 384px){
+	
+	.clients h3, .skillsright h3.bar-h3 {
+		font-size: 20px;
+	}
+}
+
